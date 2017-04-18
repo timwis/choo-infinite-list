@@ -1,0 +1,16 @@
+{
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo . --live -- -t sheetify/transform"
+  },
+  "dependencies": {
+    "bulma": "^0.4.0",
+    "choo": "^5.1.5",
+    "lodash": "^4.17.4",
+    "sheetify": "^6.0.1"
+  },
+  "devDependencies": {
+    "budo": "^9.4.7",
+    "choo-log": "^6.1.1"
+  }
+}
